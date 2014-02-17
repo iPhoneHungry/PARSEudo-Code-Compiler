@@ -1,0 +1,17 @@
+Module main()
+Call calculatePay()
+Display "Pick up the check at payroll"
+End Module
+
+Module calculatePay()
+Declare Real hoursWorked
+Declare Real hoursPayRate
+Declare Real totalPay
+
+Display "enter the Number of hours worked"
+Input hoursWorked
+Display "Enter hourly pay rate"
+Input hourlyPayRate
+Set totalPay = hoursWorked * hourlyPayRate
+Display "Total pay is: ", totalPay
+End Module
